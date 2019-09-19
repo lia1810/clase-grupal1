@@ -5,57 +5,59 @@
      color: #fff;
      font-family: "Montserrat", sans-serif;
      margin: 0px;
+     
 }
  footer {
      display: flex;
      justify-content: center;
-     align-items: flex-start;
-     padding:0px 20px 10px 20px;
-     margin: 10px 50px 10px 50px;
+     padding:0px 60px 10px 60px;
+     margin: 10px 20px 10px 20px;
      font-size:14px;
      text-align:left;
 }
- div {
-     margin: 20px;
+
+div {
+margin: 10px;
 }
+
+.wayne, .suscription {
+    padding: 15px;
+    width: 300px;
+    }
+
+.useful-links {
+padding: 15px;
+width: 100px;
+}
+
+.social {
+padding: 15px;
+width: 200px;
+}
+
 .bloque1 {
-
     display: flex;
+    padding: 20px;
 }
 
-.wayne {
-    width: 350px;
-     margin-top:0px; 
-       
-}
 h1{
     letter-spacing: 0px;
     font-size: 34px;
     font-weight: normal;
 }
-.useful-links {
-    width: 150px;
-}
 
 .bloque2 {
     display: flex;
+    padding: 20px;
 }
 
-
- .social {
-    width: 200px;
-  
-    
-}
-.suscription {
-    width: 300px;
-}
 span {
     font-weight: bold;
 }
 i {
     color: #fff;
     border-radius: 50%;
+    transition:0.5s;
 }
 .fab {
     padding: 8px;
@@ -64,9 +66,6 @@ i {
     background-color: #007bff;
     color: #fff;
 }
-
-
-
 
 input[type=email] {    
 border: 0;    
@@ -87,16 +86,16 @@ padding: 6px 0;
 text-align: center;
 font-size: 14px;
 color: #fff;
-transition: 0.3s;
+transition: 0.5s;
 cursor: pointer;
 }
-input:hover {
-    background-color: #0669d3;
-    transition:0.5;
+
+[type=submit]:hover {
+background-color: #0669d3;
     }
- i:hover {
+
+i:hover {
      background-color: #0669d3;
-     transition:0.5;
 }
 ul {
     padding-inline-start: 0px;
@@ -107,36 +106,43 @@ line-height: 24px;
 list-style: none;
 color: #fff;
 text-decoration:none;
+transition:0.5s;
 }
 
 a:hover {
     color:lightskyblue;
-    transition:0.5;
 }
 
 
- @media (max-width: 1400px) and (min-width: 601px) {
-     footer {
-         display: flex;
-         flex-wrap: wrap;
-        
-}}
+ @media (max-width: 1000px) and (min-width: 601px) {
+footer {
+display: flex;
+flex-wrap: wrap;
+}
+.wayne, .useful-links, .social, .suscription {
+width: 50%;
+}
+}
 
 @media(max-width: 600px){ 
-    footer{ 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    }
-    .bloque1 {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    .bloque2 {
-    display: flex;
-    flex-wrap: wrap;
-    }
-    }
+footer{ 
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+.bloque1 {
+display: flex;
+flex-wrap: wrap;
+padding: 0px;
+margin: 0px;
+}
+.bloque2 {
+display: flex;
+flex-wrap: wrap;
+padding: 0px;
+margin: 0px;
+}
+}
 
 
 
