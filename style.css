@@ -8,38 +8,45 @@
  footer {
      display: flex;
      justify-content: center;
+     flex-wrap: wrap;
      padding:0px 60px 10px 60px;
      margin: 10px 20px 10px 20px;
      font-size:14px;
      text-align:left;
 }
- div {
-     margin: 10px;
+.bloque1 {
+    display: flex;
 }
- .wayne, .suscription {
-     padding: 15px;
+h1{
+    letter-spacing: 0px;
+    font-size: 34px;
+    font-weight: normal;
+}       
+ .wayne  {
+     padding: 0 15px 15px 15px;
      width: 300px;
+     flex: 0 0 50%;
+     
 }
  .useful-links {
      padding: 15px;
-     width: 100px;
-}
- .social {
-     padding: 15px;
      width: 200px;
+     flex: 0 0 50%;
 }
- .bloque1 {
-     display: flex;
-     padding: 20px;
-}
- h1{
-     letter-spacing: 0px;
-     font-size: 34px;
-     font-weight: normal;
-}
+
  .bloque2 {
      display: flex;
-     padding: 20px;
+}
+.social {
+    padding: 15px;
+    width: 200px;
+    flex: 0 0 50%;
+}
+.suscription{
+    padding: 15px;
+    width: 300px;
+    flex: 0 0 50%;
+
 }
  span {
      font-weight: bold;
@@ -101,39 +108,39 @@ form{ display: flex;
 }
  @media (max-width: 1000px) and (min-width: 601px) {
      footer {
-         display: flex;
          flex-wrap: wrap;
     }
-     .wayne, .useful-links, .social, .suscription {
-         width: 50%;
+    footer div {
+        flex: 0 0 50%;
     }
+
+
 }
  @media(max-width: 600px){
-     footer{
-         display: flex;
+     footer {
          flex-direction: column;
          justify-content: center;
     }
      .bloque1 {
-         display: flex;
          flex-wrap: wrap;
          padding: 0px;
          margin: 0px;
     }
      .bloque2 {
-         display: flex;
          flex-wrap: wrap;
          padding: 0px;
          margin: 0px;
     }
 }
  .copyright {
+     height: 70px;
      background-color:darkblue;
-     padding-top:40px;
+     padding-top:20px;
+     padding-bottom: 10px;
      display:block;
      text-align:center;
      color:#fff;
-     font-size:10px;
+     font-size:14px;
      margin: 0;
 }
  
