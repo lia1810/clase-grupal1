@@ -36,10 +36,10 @@ h1{
 .bloque2 {
     display: flex;
 }
-.social {
-    padding: 15px;
-    width: 200px;
-    flex: 0 0 50%;
+ .social {
+     padding: 15px;
+     width: 200px;
+     flex: 0 0 50%;
 }
 .suscription{
     padding: 15px;
@@ -143,4 +143,3 @@ a:hover {
     font-size:14px;
     margin: 0;
 }
- 
