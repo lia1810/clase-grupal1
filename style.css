@@ -14,39 +14,36 @@
      font-size:14px;
      text-align:left;
 }
-.bloque1 {
-    display: flex;
+ .bloque1 {
+     display: flex;
 }
-h1{
-    letter-spacing: 0px;
-    font-size: 34px;
-    font-weight: normal;
-}       
- .wayne  {
+ h1{
+     letter-spacing: 0px;
+     font-size: 34px;
+     font-weight: normal;
+}
+ .wayne {
      padding: 0 15px 15px 15px;
      width: 300px;
      flex: 0 0 50%;
-     
 }
  .useful-links {
      padding: 15px;
      width: 200px;
      flex: 0 0 50%;
 }
-
  .bloque2 {
      display: flex;
 }
-.social {
-    padding: 15px;
-    width: 200px;
-    flex: 0 0 50%;
+ .social {
+     padding: 15px;
+     width: 200px;
+     flex: 0 0 50%;
 }
-.suscription{
-    padding: 15px;
-    width: 300px;
-    flex: 0 0 50%;
-
+ .suscription{
+     padding: 15px;
+     width: 300px;
+     flex: 0 0 50%;
 }
  span {
      font-weight: bold;
@@ -63,9 +60,9 @@ h1{
      background-color: #007bff;
      color: #fff;
 }
-form{ display: flex;
-    margin: 0;
-    
+ form{
+     display: flex;
+     margin: 0;
 }
  input[type=email] {
      border: none;
@@ -110,11 +107,9 @@ form{ display: flex;
      footer {
          flex-wrap: wrap;
     }
-    footer div {
-        flex: 0 0 50%;
+     footer div {
+         flex: 0 0 50%;
     }
-
-
 }
  @media(max-width: 600px){
      footer {
@@ -143,4 +138,3 @@ form{ display: flex;
      font-size:14px;
      margin: 0;
 }
- 
